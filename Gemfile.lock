@@ -1,7 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    concurrent-ruby (1.0.5)
+    julius (0.0.2)
+    mimemagic (0.3.2)
     mini_portile2 (2.3.0)
+    multipart-post (2.0.0)
     mustermann (1.0.3)
     nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
@@ -15,14 +19,20 @@ GEM
       rack-protection (= 2.0.3)
       tilt (~> 2.0)
     tilt (2.0.8)
+    todoist-ruby (0.2.1)
+      concurrent-ruby (~> 1.0)
+      mimemagic (~> 0.3)
+      multipart-post (~> 2.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  julius
   nokogiri
   parseconfig
   sinatra
+  todoist-ruby
 
 BUNDLED WITH
    1.16.4

@@ -8,3 +8,5 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem "sinatra"
 gem "nokogiri"
 gem "parseconfig"
+gem 'todoist-ruby'
+gem 'julius'
